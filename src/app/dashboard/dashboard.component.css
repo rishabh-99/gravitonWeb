@@ -1,0 +1,75 @@
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.navbar-brand{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+ .rounded{
+     margin:20px;
+ }
+
+ .identity{
+     display: flex;
+     margin-left: 23px;
+ }
+ .box{
+     display: flex;
+ }
+.insideBox, .insideBox2{
+    width: 250px;
+    height: 150px;
+    margin-left: 23px;
+    font-size: 20px;
+    font-weight: 200;
+    padding: 3%;
+    
+
+}
+.insideBox{
+    background-color: #00917c;
+    color: white;
+}
+.insideBox2{
+    background-color: #ff8882;
+    color: white;
+}
+
+.outerdiv{  
+    width:100%;
+    height: 40px;
+    color:gainsboro;
+    font-size: 20px;
+    background-color: blue;
+    text-align: end;
+  }
+
+
+.dots:after{  
+    cursor: pointer;
+    color: gainsboro;
+    content: '\2807';
+    font-size: 20px;
+    padding: 0 5px;
+}
+.tablehead{
+    margin: 20px 10px;
+}
+.tables{
+    display: flex;
+    margin-left: 20px;
+} 
+.table1, .table2{
+    width: 40%;
+margin-left: 20px;
+}
+.alt1{
+    background-color: #00917c;
+}
+
+.alt2{
+    background-color: #ff8882;
+}
