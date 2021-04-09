@@ -1,0 +1,93 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{ 
+    color: black;
+    font-size: 12px;
+}
+
+.navbar.navbar-inverse.navbar-header.navbar-brand {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+  }
+  
+  .navbar-header {
+    text-align: center;
+  }
+.navbar{
+    background: #0072ff;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    height: 50px;
+}
+.navbar-brand{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+.firstDiv{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 23px;
+}
+.card{
+    height: 100px;
+    width: 250px;
+}
+.firstH{
+    font-size: 50px;
+    margin: 15px 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+.secH{
+    margin-left: 350px;
+    font-size: 45px;
+    color:#0072ff ;
+    font-family: 'Montserrat', sans-serif;
+}
+.secondDiv{
+    display: flex;
+}
+.btn{
+    font-size: 15px;
+    margin-left: 5px;
+}
+.third1{
+    margin: 20px 0px;
+    display: flex;
+}
+.third2{
+    display: flex;
+}
+.third3{
+    display: flex;
+    margin-top: 40px;
+}
+form {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+  }
+  
+  label, input[type='text'], input[type='password'] {
+    font-size: 13px;
+    padding: 5px;
+  }
+  
+  label {
+    color: grey;
+  }
+  
+  input {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid grey;
+    width: 350px;
+  }
+  .last{
+      margin-left: 120px;
+      margin-top: 70px;
+  }

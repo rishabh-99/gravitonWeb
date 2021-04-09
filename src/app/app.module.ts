@@ -12,6 +12,7 @@ import { MaterialAngularSelectModule } from 'material-angular-select';
 import { NgMultiSelectDropDownModule } from 'ng-multiselect-dropdown';
 import { FormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MetadataComponent } from './metadata/metadata.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     NewUserComponent,
     DashboardComponent,
     TableComponent,
-    BankStatsComponent
+    BankStatsComponent,
+    MetadataComponent
   ],
   imports: [
     FormsModule,
