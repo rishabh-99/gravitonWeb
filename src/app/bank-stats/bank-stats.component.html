@@ -1,0 +1,54 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+<body>
+    <!-- nav bar -->
+        <div class="wraper">
+            <nav class="navbar navbar-inverse">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="navbar-header">
+                        <a class="navbar-brand">The Three Finances</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </nav>
+          </div>
+
+     <!-- card body -->
+     <div class="card text-center">
+        <div class="card-header">
+          Bank Statement Analyzer
+        </div>
+        <div class="card-body">
+            <div class="input-group mb-3 secondLine">
+                <div class="input-group-prepend">
+                  <p class="bank">Select Bank</p>
+                </div>
+                <select class="custom-select bank" id="inputGroupSelect01">
+                  <option selected>🏦 Select Bank</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+              <div class="form-group row secondLine">
+                <label for="inputPassword" class="col-sm-2 col-form-label password">Password<i (click)="toggleInput()" class="fas fa-toggle-on"></i></label>
+                <div class="col-sm-10">
+                  <input type="password" class="form-control inVal" id="inputPassword" placeholder="Password" [disabled]="isDisabled">
+                </div>
+              </div>
+          <div class="buttons">
+            <form>
+              <div class="form-group">
+                <input type="file" class="form-control-file" id="exampleFormControlFile1">
+              </div>
+            </form>
+          <a href="#" class="btn btn-primary">Aalayse</a>
+        </div>
+        </div>
+      </div>

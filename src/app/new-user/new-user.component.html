@@ -11,12 +11,14 @@
 </head>
 
 <body>
+    <!-- nav bar -->
     <nav class="navbar navbar-light outerdiv justify-content-between">
         <a class="navbar-brand">Graviton</a>
         <form class="form-inline">
             <h3>VT road <span class="dots"></span></h3>
         </form>
       </nav>
+
     <div class="wrapper">
 		<div class="insiderwrapper">
 			<div class="one">  
@@ -36,7 +38,7 @@
                <div class="login-form">
                  <h2 class="text2">Create <br>New User</h2>
                   <form>
-                     <div class="form-group">
+                     <div class="form-group inVal">
                         <input type="text" class="form-control" placeholder="Full Name">
                      </div>
                      <div class="form-group">
@@ -55,21 +57,24 @@
                        <input type="text" class="form-control" placeholder="Confirm Password">
                     </div>
                     <!-- drop down -->
-                    <div class="input-group dropdown-grp">
-                        <input type="text" class="form-control dropInput" placeholder="user Access" aria-label="Text input with segmented dropdown button">
-                        <div class="input-group-append">
-                          <button type="button" class="btn dropdown-toggle dropdown-toggle-split dropbtn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <span class="sr-only">Toggle Dropdown</span>
-                          </button>
-                          <!-- <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                            <div role="separator" class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Separated link</a>
-                          </div> -->
-                        </div>
-                      </div>
+                    <ng-multiselect-dropdown
+                     class="dropDown"
+                    [placeholder]="'User acess'"
+                    [settings]="dropdownSettings"
+                    [data]="dropdownList"
+                    [(ngModel)]="selectedItems"
+                    (onSelect)="onItemSelect($event)"
+                    (onSelectAll)="onSelectAll($event)"
+                  >
+                  </ng-multiselect-dropdown>
+                  <!-- <mat-form-field>
+                     <mat-label></mat-label>
+                     <mat-select>
+                     <input placeholder="User Access ">
+                     <mat-option>admin</mat-option>
+                     <mat-option>user</mat-option>
+                  </mat-select>
+                   </mat-form-field> -->
                          <!-- drop down ends  -->
                      <button type="submit" class="btn btn-primary LoginBtn">Create</button>
                      

@@ -1,0 +1,18 @@
+.tablehead{
+    margin: 20px 10px;
+}
+.tables{
+    display: flex;
+    margin-left: 20px;
+} 
+.table1, .table2{
+    width: 40%;
+margin-left: 20px;
+}
+.alt1{
+    background-color: #28b5b5;
+}
+
+.alt2{
+    background-color: #ff8882;
+}
