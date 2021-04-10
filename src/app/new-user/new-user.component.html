@@ -13,15 +13,12 @@
 <body>
     <!-- nav bar -->
     <nav class="navbar navbar-light outerdiv justify-content-between">
-        <a class="navbar-brand">Graviton</a>
+        <!-- <a class="navbar-brand"></a> -->
+        <span class="navbar-brand">Graviton</span>
         <form class="form-inline">
             <h3>VT road <span class="dots"></span></h3>
         </form>
       </nav>
-
-    <div class="wrapper">
-		<div class="insiderwrapper">
-			<div class="one">  
                 <!-- sidenav section -->
                 <div class="sidenav">
                          <div class="login-main-text">
@@ -29,10 +26,9 @@
                          </div>
                          <p>MADE WITH ♡ IN INDIA <br>KUGELBLITZ TECHNOLOGIES</p>
                       </div>
-                       <!-- sidenav section end --></div>
-		<div class="two">
-             <!-- New user -->
-         
+   <!-- sidenav section end -->
+
+   <!-- New user -->      
           <div class="main">
             <div class="col-md-6 col-sm-12">
                <div class="login-form">
@@ -57,8 +53,7 @@
                        <input type="text" class="form-control" placeholder="Confirm Password">
                     </div>
                     <!-- drop down -->
-                    <ng-multiselect-dropdown
-                     class="dropDown"
+                    <ng-multiselect-dropdown class="dropDown"
                     [placeholder]="'User acess'"
                     [settings]="dropdownSettings"
                     [data]="dropdownList"
@@ -76,18 +71,11 @@
                   </mat-select>
                    </mat-form-field> -->
                          <!-- drop down ends  -->
-                     <button type="submit" class="btn btn-primary LoginBtn">Create</button>
-                     
                   </form>
+                  <button type="submit" class="btn btn-primary LoginBtn">Create</button>
                </div>
             </div>
          </div>
-           <!-- New User end -->
-        </div>
-		</div>		
-		
-	  </div>
-  
-          
+           <!-- New User end --> 
 </body>
 </html>

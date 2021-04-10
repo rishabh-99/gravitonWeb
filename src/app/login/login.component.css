@@ -1,6 +1,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+        
 }
 
 p{
@@ -62,13 +63,14 @@ p{
     }
 
     .register-form{
-        margin-top: 20%;
+        margin-top: 18%;
     }
 }
 
 .text2{
     color:#0072ff;
     line-height: 1;
+    margin-top: 10px;
     margin-bottom: 30px;
     font-weight: 250;
     font-size: 30px;

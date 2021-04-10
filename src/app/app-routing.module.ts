@@ -5,6 +5,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { LoginComponent } from './login/login.component';
 import { MetadataComponent } from './metadata/metadata.component';
 import { NewUserComponent } from './new-user/new-user.component';
+import { SummaryComponent } from './summary/summary.component';
 import { TableComponent } from './table/table.component';
 
 // const routes: Routes = [];
@@ -16,6 +17,7 @@ const appRoutes: Routes = [
   { path: 'table', component: TableComponent},
   { path: 'bankStats', component: BankStatsComponent},
   { path: 'metadata', component: MetadataComponent},
+  { path: 'summary', component: SummaryComponent},
     // otherwise redirect to home
     { path: '**', redirectTo: '' }
 ];
