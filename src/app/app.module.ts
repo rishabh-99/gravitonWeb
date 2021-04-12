@@ -14,6 +14,9 @@ import { FormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MetadataComponent } from './metadata/metadata.component';
 import { SummaryComponent } from './summary/summary.component';
+import { NetCashComponent } from './net-cash/net-cash.component';
+import { DefaultsComponent } from './defaults/defaults.component';
+import { TopDebComponent } from './top-deb/top-deb.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +27,10 @@ import { SummaryComponent } from './summary/summary.component';
     TableComponent,
     BankStatsComponent,
     MetadataComponent,
-    SummaryComponent
+    SummaryComponent,
+    NetCashComponent,
+    DefaultsComponent,
+    TopDebComponent
   ],
   imports: [
     FormsModule,
